@@ -31,7 +31,7 @@ export class ProductListComponent implements OnInit {
       "releaseDate": "March 18, 2016",
       "description": "15 gallon capacity rolling garden cart",
       "price": 32.99,
-      "startRating": 4.2,
+      "starRating": 4.2,
       "imageUrl": "https://openclipart.org/image/300px/svg_to_png/58471/garden_cart.png"
     },
     {
@@ -41,7 +41,7 @@ export class ProductListComponent implements OnInit {
       "releaseDate": "May 21, 2016",
       "description": "Curved claw steel hammer",
       "price": 8.9,
-      "startRating": 4.8,
+      "starRating": 4.8,
       "imageUrl": "https://openclipart.org/image/300px/svg_to_png/73/rejon_Hammer.png"
     }
   ];

@@ -5,7 +5,7 @@ export interface IProduct {
   releaseDate: string;
   price: number;
   description: string;
-  startRating: number;
+  starRating: number;
   imageUrl: string;
 }
 /*
@@ -17,7 +17,7 @@ export class Product implements IProduct {
     public releaseDate: string,
     public price: number,
     public description: string,
-    public startRating: number,
+    public starRating: number,
     public imageUrl: string) {
 
     }

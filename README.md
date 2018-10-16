@@ -30,3 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 To generate guard using angular CLI use `ng g g products/product-detail` `ng` stands for angular CLI, first `g` stands for generate, second `g` stands for guard and the rest stands for guards name path
 
 To generate a new module using agular CLI use `ng g m products/product --flat -m app` `ng` stands for angular CLI, first `g` stands for generate, `m` stands for module and the rest stands for module name path, `--flat` will avoid to create a new folder for module, `-m` stands for import module in module folder app
+
+To generate a new module and importe new module in other module `ng g m shared/shared --flat -m products/product.module` stands for angular CLI, first `g` stands for generate, `m` stands for module and the rest stands for module name path, `--flat` will avoid to create a new folder for module, `-m` stands for import module in module folder app
+

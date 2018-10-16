@@ -27,4 +27,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## NG CLI
-To generate guard using angular CLI us `ng g g products/product-detail` `ng` stands for angular CLI, first `g` stands for generate, second `g` stands for guard and the rest stands for guards name path
+To generate guard using angular CLI use `ng g g products/product-detail` `ng` stands for angular CLI, first `g` stands for generate, second `g` stands for guard and the rest stands for guards name path
+
+To generate a new module using agular CLI use `ng g m products/product --flat -m app` `ng` stands for angular CLI, first `g` stands for generate, `m` stands for module and the rest stands for module name path, `--flat` will avoid to create a new folder for module, `-m` stands for import module in module folder app
